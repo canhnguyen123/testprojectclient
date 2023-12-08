@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+a{
+  color: white !important;
+  text-decoration: none !important;
+}
+:root{
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --5s-transition: .5s ease-in-out;
+  --color-textPrimary:#666;
+  --color-red:#ff4136;
+  --color-bink:#ff6c60;
+}
+p{
+  padding: 0;
+  margin: 0 !important;
+}
+nav.navbar{
+  background-color:var(--color-bink) !important;
+  color: white !important;
+}
+.modal-dialog{
+  max-width: 1000px !important;
+ 
+}
+.flex_center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex_stat{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.pd-20{
+  padding: 20px 0;
+}
+.img-updaload{
+  width: 400px;
+  height: 400px;
+  object-position: center;
+  object-fit: cover;
+}
+.btn-add{
+  padding: 15px 30px;
+  border: none;
+  background-color: var(--color-bink);
+  color: var(--bs-white);
+  border-radius: 10px;
+}
+.img-deatil{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.backgroup-yellow{
+  background-color: var(--bs-yellow);
+}
+.btn-action{
+  padding: 10px;
+  color: var(--bs-white);
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+.backgroup-bink{
+  background-color: var(--color-bink) !important;
+}
+.backgroup-violet{
+  background-color: #5E50F9 !important;
+
+}
+.text-span{
+  margin: 30px 0;
+}
+.btn-update,.btn-delete{
+  padding: 10px 20px;
+}
+.btn-add{
+  background-color: var(--bs-orange) !important;
+}
+.item-acction {
+  padding: 10px;
+}
+.item-acction a{
+  color: #212529 !important;
+}
+.he-500{
+  min-height: 500px;
+}
+.form-action{
+  width: 400px;
+
+}
+.form-input{
+  text-align: start;
+  margin: 30px 0;
+}
